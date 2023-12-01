@@ -15,8 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    dd('sdsd');
-//    return view('client.index');
+    return view('client.index');
 });
 
 Route::get('/s',function (){
